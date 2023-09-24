@@ -30,8 +30,18 @@
     z-index: 2;
     text-align: center;
     margin-left: 6%;
+    animation: animation 0.5s ease-in-out;
   }
-  
+  @keyframes animation{
+    0%{
+      
+      transform: translateY(-100%);
+    }
+    100%{
+      
+      transform: translateY(0%);
+    }
+  }
   .nav > .nav-header {
     display: inline;
     position: sticky;
